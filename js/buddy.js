@@ -17,6 +17,7 @@ const displayBuddies = data => {
             // p.innerText = buddy.email;
       // dynamic ভাবে দেখানো জন্য
             p.innerText = `Name: ${buddy.name.title} ${buddy.name.first} Last Name: ${buddy.name.last} Email: ${buddy.email}`;
+            
             buddiesDiv.appendChild(p);
       }
 }
